@@ -1,3 +1,17 @@
 ﻿<Properties StartupConfiguration="{5ED07AC9-D6A7-415C-800C-DB0F04A5AEAE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Original.OpenBank.Service/Controllers/BalanceController.cs">
+    <Files>
+      <File FileName="Original.OpenBank.Service/Controllers/OriginalAuthenticationController.cs" Line="50" Column="42" />
+      <File FileName="Original.OpenBank.Service/Model/Balance.cs" Line="10" Column="42" />
+      <File FileName="Original.OpenBank.Service/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="Original.OpenBank.Service/Controllers/BalanceController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Original.OpenBank.Service PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
