@@ -10,13 +10,24 @@ namespace Original.OpenBank.Service.Controllers
 {
     [Produces("application/json")]
     [Route("api/Investimento")]
-    public class InvestimentoController : Controller
+    public class InvestimentoController : BaseController
     {
+
+        public InvestimentoController()
+        {
+
+        }
+
+        public InvestimentoController(string token):base(token)
+        {
+
+        }
+
         [HttpGet("teminvestimento")]
         public async Task<bool> TemInvestimento()
         {
             var client = new HttpClient();
-            client.DefaultRequestHeaders.Add("Authorization", LiveData.Token);
+            client.DefaultRequestHeaders.Add("Authorization", base.GetToken());
             client.DefaultRequestHeaders.Add("developer-key", LiveData.DeveloperKey);
 
             var saida = JsonConvert.DeserializeObject<List<InvestimentoModel>>((await (await client.GetAsync($"https://sandbox.original.com.br/investments/v1/portfolio-summary")).Content.ReadAsStringAsync()));

@@ -1,10 +1,28 @@
 ﻿using System;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
 namespace Original.OpenBank.Service.Controllers
 {
-    public class BaseController
+    public class BaseController : Controller
     {
+        private string _token;
+
         public BaseController()
         {
+        }
+
+        public BaseController(string token)
+        {
+            _token = token;
+        }
+
+        public string GetToken()
+        {
+            if (string.IsNullOrEmpty(_token))
+                return HttpContext.Request.Headers["Authorization"];
+            else
+                return _token;
         }
     }
 }

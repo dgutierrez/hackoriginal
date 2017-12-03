@@ -1,25 +1,25 @@
 ﻿<Properties StartupConfiguration="{5ED07AC9-D6A7-415C-800C-DB0F04A5AEAE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Original.OpenBank.Service/LiveData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Original.OpenBank.Service/Controllers/ValuesController.cs">
     <Files>
-      <File FileName="Original.OpenBank.Service/Controllers/AuthenticationController.cs" Line="39" Column="24" />
-      <File FileName="Original.OpenBank.Service/Model/Balance.cs" Line="10" Column="42" />
-      <File FileName="Original.OpenBank.Service/Controllers/BalanceController.cs" Line="23" Column="77" />
-      <File FileName="Original.OpenBank.Service/Controllers/DataController.cs" Line="21" Column="1" />
-      <File FileName="Original.OpenBank.Service/Model/HistoryBalanceResponse.cs" Line="34" Column="37" />
-      <File FileName="Original.OpenBank.Service/Program.cs" Line="17" Column="1" />
-      <File FileName="Original.OpenBank.Service/Model/DataResponse.cs" Line="22" Column="33" />
-      <File FileName="Original.OpenBank.Service/LiveData.cs" Line="15" Column="509" />
+      <File FileName="Original.OpenBank.Service/Controllers/DataController.cs" Line="15" Column="41" />
+      <File FileName="Original.OpenBank.Service/Controllers/AuthenticationController.cs" Line="1" Column="1" />
+      <File FileName="Original.OpenBank.Service/Controllers/BalanceController.cs" Line="27" Column="76" />
+      <File FileName="Original.OpenBank.Service/Model/DataResponse.cs" Line="145" Column="1" />
+      <File FileName="Original.OpenBank.Service/Model/DataRequest.cs" Line="4" Column="25" />
+      <File FileName="Original.OpenBank.Service/Model/FundosModel.cs" Line="1" Column="1" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/2.0.0/Sdks/Microsoft.NET.Sdk/build/Microsoft.PackageDependencyResolution.targets" Line="323" Column="5" />
+      <File FileName="Original.OpenBank.Application/Controllers/HomeController.cs" Line="1" Column="7" />
+      <File FileName="Original.OpenBank.Service/Controllers/InvestimentoController.cs" Line="35" Column="36" />
+      <File FileName="Original.OpenBank.Service/Controllers/BaseController.cs" Line="29" Column="1" />
+      <File FileName="Original.OpenBank.Service/Controllers/ValuesController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/leandrosotofernandes/Projects/hackoriginal/Original.OpenBank.Service/Original.OpenBank.Service/Controllers/DataController.cs" relfile="Original.OpenBank.Service/Controllers/DataController.cs" line="21" column="1" />
-      <Breakpoint file="/Users/leandrosotofernandes/Projects/hackoriginal/Original.OpenBank.Service/Original.OpenBank.Service/Controllers/BalanceController.cs" relfile="Original.OpenBank.Service/Controllers/BalanceController.cs" line="25" column="1" />
-      <Breakpoint file="/Users/leandrosotofernandes/Projects/hackoriginal/Original.OpenBank.Service/Original.OpenBank.Service/Controllers/AuthenticationController.cs" relfile="Original.OpenBank.Service/Controllers/AuthenticationController.cs" line="39" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Original.OpenBank.Service PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Original.OpenBank.Application PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
