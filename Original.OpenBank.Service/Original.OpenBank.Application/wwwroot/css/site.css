@@ -1,0 +1,71 @@
+﻿@charset "utf-8";
+
+body, html {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.saldo {
+    background-image: url('/images/saldo.png');
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.alerta {
+    background-image: url('/images/alerta.png');
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.labelNome {
+    font-size: 20px;
+    top: 190px;
+    left: 55px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnAction {
+    width: 205px;
+    height: 40px;
+    cursor: pointer;
+    left: 37px;
+    top: 335px;
+    position: absolute;}
+
+.labelSaldoNome {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: 65px;
+    position: absolute;
+    width: 100%;
+    padding-left: 65px;
+}
+
+.labelSaldoValor {
+    font-size: 30px;
+    top: 175px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    text-align: center;
+    color: #50af47;
+}
+
+.btnSair {
+    width: 285px;
+    height: 40px;
+    cursor: pointer;
+    left: 18px;
+    top: 320px;
+    position: absolute;
+}

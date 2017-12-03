@@ -37,7 +37,6 @@ namespace Original.OpenBank.Service.Controllers
             var response = await client.PostAsync("https://sb-autenticacao-api.original.com.br/OriginalConnect/AccessTokenController", new StringContent(jsonBody, Encoding.UTF8, "application/json") );
 
             LiveData.Token = JsonConvert.DeserializeObject<AcessTokenResponse>(await response.Content.ReadAsStringAsync()).access_token;
-
         }
     }
 }

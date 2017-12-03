@@ -1,7 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Original.OpenBank.Service", "Original.OpenBank.Service\Original.OpenBank.Service.csproj", "{5ED07AC9-D6A7-415C-800C-DB0F04A5AEAE}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Original.OpenBank.Service", "Original.OpenBank.Service\Original.OpenBank.Service.csproj", "{5ED07AC9-D6A7-415C-800C-DB0F04A5AEAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Original.OpenBank.Application", "Original.OpenBank.Application\Original.OpenBank.Application.csproj", "{10B267A7-F574-488B-98D8-FEAF31FBD94D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +16,15 @@ Global
 		{5ED07AC9-D6A7-415C-800C-DB0F04A5AEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ED07AC9-D6A7-415C-800C-DB0F04A5AEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ED07AC9-D6A7-415C-800C-DB0F04A5AEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B267A7-F574-488B-98D8-FEAF31FBD94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B267A7-F574-488B-98D8-FEAF31FBD94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B267A7-F574-488B-98D8-FEAF31FBD94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B267A7-F574-488B-98D8-FEAF31FBD94D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D31A3D7E-4BAE-456C-AE4B-AE57B110F490}
 	EndGlobalSection
 EndGlobal
