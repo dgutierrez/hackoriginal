@@ -15,11 +15,6 @@ namespace Original.OpenBank.Service.Controllers
         {
         }
 
-        public BalanceController(string token):base(token)
-        {
-
-        }
-
         [HttpGet("history/{dateFrom}/{dateTo}")]
         public async Task<List<HistoryBalanceResponse>> GetHistory([FromRoute]string dateFrom, [FromRoute]string dateTo)
         {
@@ -28,6 +23,16 @@ namespace Original.OpenBank.Service.Controllers
             client.DefaultRequestHeaders.Add("developer-key", LiveData.DeveloperKey);
 
             return JsonConvert.DeserializeObject<List<HistoryBalanceResponse>>((await (await client.GetAsync($"https://sandbox.original.com.br/accounts/v1/transaction-history?dateFrom={dateTo}&dateTo={dateFrom}")).Content.ReadAsStringAsync()));
+        }
+
+        [HttpGet("saldo")]
+        public async Task<SaldoModel> Saldo()
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Add("Authorization", base.GetToken());
+            client.DefaultRequestHeaders.Add("developer-key", LiveData.DeveloperKey);
+
+            return JsonConvert.DeserializeObject<SaldoModel>((await (await client.GetAsync($"https://sandbox.original.com.br/accounts/v1/balance")).Content.ReadAsStringAsync()));
         }
 
 

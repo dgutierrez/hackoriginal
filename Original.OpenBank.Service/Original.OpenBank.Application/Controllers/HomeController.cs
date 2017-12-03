@@ -33,11 +33,13 @@ namespace Original.OpenBank.Application.Controllers
             var response = client.UploadString("https://sb-autenticacao-api.original.com.br/OriginalConnect/AccessTokenController", "POST", jsonBody);
 
             LiveData.Token = JsonConvert.DeserializeObject<AcessTokenResponse>(response).access_token;
-
+            
             client = new System.Net.WebClient();
-            client.DownloadString("");
+            client.Headers.Add("Authorization", LiveData.Token);
 
-            bool alerta = true;
+            var data = Newtonsoft.Json.JsonConvert.DeserializeObject<MLResponse>(client.DownloadString("http://localhost:55556/api/data"));
+
+            bool alerta = data == null ? false : decimal.Parse(data.Results.output1.value.Values.Last().Last(), System.Globalization.CultureInfo.GetCultureInfo("en-US")) < (decimal)0.6;
 
             if (alerta)
                 return View("Alerta");

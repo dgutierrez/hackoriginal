@@ -12,7 +12,7 @@ namespace Original.OpenBank.Service.Controllers
         {
         }
 
-        public BaseController(string token)
+        public void SetToken(string token)
         {
             _token = token;
         }

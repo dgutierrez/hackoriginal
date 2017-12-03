@@ -40,7 +40,8 @@ body, html {
     cursor: pointer;
     left: 37px;
     top: 335px;
-    position: absolute;}
+    position: absolute;
+}
 
 .labelSaldoNome {
     font-family: 'Roboto', sans-serif;

@@ -18,10 +18,6 @@ namespace Original.OpenBank.Service.Controllers
 
         }
 
-        public InvestimentoController(string token):base(token)
-        {
-
-        }
 
         [HttpGet("teminvestimento")]
         public async Task<bool> TemInvestimento()
