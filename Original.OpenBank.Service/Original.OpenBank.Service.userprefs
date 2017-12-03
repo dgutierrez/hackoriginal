@@ -1,15 +1,23 @@
 ﻿<Properties StartupConfiguration="{5ED07AC9-D6A7-415C-800C-DB0F04A5AEAE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Original.OpenBank.Service/Controllers/BalanceController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Original.OpenBank.Service/LiveData.cs">
     <Files>
-      <File FileName="Original.OpenBank.Service/Controllers/OriginalAuthenticationController.cs" Line="50" Column="42" />
+      <File FileName="Original.OpenBank.Service/Controllers/AuthenticationController.cs" Line="39" Column="24" />
       <File FileName="Original.OpenBank.Service/Model/Balance.cs" Line="10" Column="42" />
-      <File FileName="Original.OpenBank.Service/Controllers/ValuesController.cs" Line="1" Column="1" />
-      <File FileName="Original.OpenBank.Service/Controllers/BalanceController.cs" Line="1" Column="1" />
+      <File FileName="Original.OpenBank.Service/Controllers/BalanceController.cs" Line="23" Column="77" />
+      <File FileName="Original.OpenBank.Service/Controllers/DataController.cs" Line="21" Column="1" />
+      <File FileName="Original.OpenBank.Service/Model/HistoryBalanceResponse.cs" Line="34" Column="37" />
+      <File FileName="Original.OpenBank.Service/Program.cs" Line="17" Column="1" />
+      <File FileName="Original.OpenBank.Service/Model/DataResponse.cs" Line="22" Column="33" />
+      <File FileName="Original.OpenBank.Service/LiveData.cs" Line="15" Column="509" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/leandrosotofernandes/Projects/hackoriginal/Original.OpenBank.Service/Original.OpenBank.Service/Controllers/DataController.cs" relfile="Original.OpenBank.Service/Controllers/DataController.cs" line="21" column="1" />
+      <Breakpoint file="/Users/leandrosotofernandes/Projects/hackoriginal/Original.OpenBank.Service/Original.OpenBank.Service/Controllers/BalanceController.cs" relfile="Original.OpenBank.Service/Controllers/BalanceController.cs" line="25" column="1" />
+      <Breakpoint file="/Users/leandrosotofernandes/Projects/hackoriginal/Original.OpenBank.Service/Original.OpenBank.Service/Controllers/AuthenticationController.cs" relfile="Original.OpenBank.Service/Controllers/AuthenticationController.cs" line="39" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Original.OpenBank.Service PreferredExecutionTarget="MonoDevelop.Default" />
